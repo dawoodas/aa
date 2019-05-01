@@ -28,4 +28,4 @@ message.guild.members.forEach(m => {
  
 });
  
-client.login('TokenBot');
+client.login(process.env.BOT_TOKEN);
